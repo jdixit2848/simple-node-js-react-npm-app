@@ -3,7 +3,7 @@ pipeline {
      stages {
         stage('Build') { 
             steps {
-                 CMD /C 'npm install'
+                 CMD /C npm install
             }
         }
     }
