@@ -3,7 +3,7 @@ pipeline {
      stages {
         stage('Build') { 
             steps {
-                 CMD /C npm install
+                 C:\Program Files\nodejs\node_modules\npm install
             }
         }
     }
